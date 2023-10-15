@@ -1,9 +1,9 @@
 void run() {
-  initVariable();
-  initString();
+  _initVariable();
+  _initString();
 }
 
-void initVariable() {
+void _initVariable() {
   const string = 'string';
   const integer = 1;
   const float = 1.1;
@@ -20,7 +20,7 @@ void initVariable() {
   print(map);
 }
 
-void initString() {
+void _initString() {
   var inference = 'ko';
   const constant = 'ko';
   Object object = 'ko';
