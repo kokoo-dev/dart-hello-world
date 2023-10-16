@@ -1,4 +1,4 @@
-import 'package:dart_hello_world/Example.dart';
+import 'package:dart_hello_world/example.dart';
 
 void run() {
   _is();
