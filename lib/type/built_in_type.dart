@@ -54,5 +54,5 @@ string
   assert(multiLine1 == multiLine2);
 
   const emoji = '😀';
-  print(emoji);
+  print('emoji:: $emoji');
 }

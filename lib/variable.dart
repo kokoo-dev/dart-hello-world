@@ -17,7 +17,7 @@ void _initVariable() {
     'list': list
   };
 
-  print(map);
+  print('map:: $map');
 }
 
 void _initString() {
