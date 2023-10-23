@@ -3,6 +3,7 @@ import 'package:dart_hello_world/operators.dart' as operators;
 import 'package:dart_hello_world/metadata/todo_runner.dart' as todo_runner;
 import 'package:dart_hello_world/type/built_in_type.dart' as built_in_type;
 import 'package:dart_hello_world/type/record.dart' as record;
+import 'package:dart_hello_world/function.dart' as function;
 
 void main(List<String> arguments) {
   variable.run();
@@ -10,4 +11,5 @@ void main(List<String> arguments) {
   todo_runner.doSomething();
   built_in_type.run();
   record.run();
+  function.run();
 }
